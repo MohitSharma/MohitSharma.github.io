@@ -21,18 +21,25 @@
 <body>
 <main>
 <h1>Sabji Mandi — Privacy Policy</h1>
-<p class="muted">Last updated: 23 October 2026. Applies to the Sabji Mandi game for Android
+<p class="muted">Last updated: 25 November 2026. Applies to the Sabji Mandi game for Android
 (<code>com.mohitsharma.sabjimandi</code>) and its desktop and web versions.</p>
 
 <h2>In short</h2>
-<p>Sabji Mandi has no accounts and no analytics, and your game progress is saved only on your own
-device. The game shows an ad <b>only when you choose to watch one</b> for a bonus (rewarded ads);
+<p>Sabji Mandi has no accounts and no analytics, and your game progress is saved on your own
+device (and, if your phone backs up apps, in your own Google backup). The game shows an ad <b>only when you choose to watch one</b> for a bonus (rewarded ads);
 those ads come from Google AdMob, which collects some data as described below.</p>
 
 <h2>What stays on your device</h2>
 <ul>
   <li><b>Your save</b> (days played, money, upgrades, farm, settings) is stored in the app's private
-      storage on your phone. Uninstalling the app deletes it.</li>
+      storage on your phone. Uninstalling the app deletes it from the phone.</li>
+  <li><b>Phone backup.</b> If Android backup is on for your Google account, Android copies this one
+      save file into your own backup (and to a new phone when you move), so your game carries
+      over. It is stored by Google under your account, encrypted, and the game's maker cannot see
+      it. Turn it off in your phone's Settings → Google → Backup. Nothing else from the game is
+      backed up.</li>
+  <li><b>Tester code.</b> If you type a tester code in Settings, it is kept in your save so the
+      parts it opens stay open. The game checks it on the phone; it is never sent anywhere.</li>
   <li><b>Crash reports.</b> If the game crashes, a short text report (game version, what screen you
       were on, and the error) is written to the app's private storage. It is never sent anywhere.</li>
   <li><b>Optional play events.</b> Settings has an option, off by default, that keeps a small log of
@@ -52,18 +59,18 @@ your choice any time in Settings → Ad privacy. You can also reset or delete yo
 your phone's settings (Settings → Privacy → Ads, on most Android phones).</p>
 
 <h2>Playing together (Saath-Saath)</h2>
-<p>When you choose to play co-op with a friend, your phone connects over an encrypted connection
+<p><i>Co-op is not in the version on Google Play yet; this section applies once it is.</i>
+When you choose to play co-op with a friend, your phone connects over an encrypted connection
 (<code>wss://</code>) to our relay server, which passes game moves between the players in a room. The
 relay sees your device's IP address (as any internet connection does), the room code, the preset
 name and avatar you picked in the game, and a random rejoin code it hands your phone for that room.
 The relay keeps this only in memory while the room is open and does not store or log it afterwards.
 The game itself sends no install or advertising identifier there, and there is no chat or free
-text. Single-player
-games never use the network.</p>
+text. Single-player games never connect to the relay.</p>
 
 <h2>Permissions</h2>
 <ul>
-  <li><b>Internet</b>: for co-op games and for the ads you choose to watch, as above.</li>
+  <li><b>Internet</b>: for the ads you choose to watch (and co-op games, once available), as above.</li>
   <li><b>Advertising ID</b>: used by Google AdMob for the ads, as above.</li>
   <li><b>Vibration</b>: short buzzes for game feedback (can be turned off in Settings).</li>
   <li><b>Notifications</b>: at most one reminder an evening about what waits in your game, made on
